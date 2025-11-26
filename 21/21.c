@@ -1,15 +1,16 @@
 #include <stdio.h>
 int main()
 {
-	int n,i;
+	int n,i,x;
 	
 	printf("Enter the value of n");
 	scanf("%d", &n);
 	
-	for(i=2;i<=n;i=i+2)
+	for(i=1;i<=n;i++)
 	{
-		printf("%d",i);
-		printf("\t");
+		x=pow(2,i);
+		printf("%d",x);
 	}
 	
 }
+
